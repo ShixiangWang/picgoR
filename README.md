@@ -5,7 +5,7 @@
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
-The goal of picgoR is to provide a R API to [PicGo](https://github.com/Molunerfinn/PicGo).
+The goal of picgoR is to provide an R API to [PicGo](https://github.com/Molunerfinn/PicGo).
 
 ## Installation
 
@@ -24,6 +24,13 @@ $ yarn global add picgo
 
 ``` r
 install.packages("picgoR")
+```
+
+Install `picgoR` from GitHub:
+
+```r
+# install.packages("remotes")
+remotes::install_github("ShixiangWang/picgoR")
 ```
 
 ## Example
